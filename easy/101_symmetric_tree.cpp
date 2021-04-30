@@ -27,6 +27,6 @@ public:
             return false;
         }
         
-        return helper(left->left,right->right) && helper(left->right, right->left);          // recursively calls helper function for each node's subtrees
+        return helper(left->left, right->right) && helper(left->right, right->left);          // recursively calls helper function for each node's subtrees
     }
 };
